@@ -1,11 +1,11 @@
 #include "Common.h"
-#pragma comment(lib,"win64udl_lib.lib")
-void DSE_OFF();
-void DSE_ON();
+//#pragma comment(lib,"win64udl_lib.lib")
+//void DSE_OFF();
+//void DSE_ON();
 //判断当前进程是否拥有管理员权限
 BOOL _IsRunasAdmin()
 {
-	DSE_OFF();
+	/*DSE_OFF();*/
 	BOOL bElevated = FALSE;
 	HANDLE hToken = NULL;
 
